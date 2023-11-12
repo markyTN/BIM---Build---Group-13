@@ -4,21 +4,14 @@
 
 The IFC entities in focus are IfcBeam, IfcColumn, which represent some of the construction elements. In terms of IFC properties, we will be working with IfcElementQuantity and IfcMaterial, which contains information about geometrics properties and materials properties.  
 
-##### BEP:
+###### Model Uses
 
-###### Model Uses, e.g. what is the tool/setup meant to do? Who will use it? In relation to what goals?
+This tool is designed for the project manager and the craftsmen on the construction site. Its purspose is to optimize the construction process and make project management simpler by assisting in material management, schedule coordination and cost estimation by using BIM data. 
+The additional feature, which involves modifying the material in the IFC model, is supposed to simplify any modification process. This can be useful in cases such as price changes in materials or unexpected delays or unavailability of the products.
+Our tool is expected to have a high level of detailing as it must be able to specify the specific material to be used in the project. To use our tool you need to know about the costs of the various materials and the exact quantities. In that way the level of detail of the output depends on the level of detail of the input. 
 
-The tool is designed for the project manager and the craftsmen on the construction site.  
-
-The goal is to optimize the construction process and to make project management easier. The tool should help with material management, schedule coordination and cost estimation by using BIM data.  
-
-###### Process, e.g. what other roles and people are you relying on before, and after using the tool/setup? who will take the information from you? and use it for what? Is it an iterative process? is it defined linearly?
-
-General architectural concept and material choices for the building need to be accomplished before material management, schedule coordination and cost estimation can be begun.  When our use case has be done, the use cases in construction phase can begin, these includes site preparation, foundation construction, structural framing and more.  
-
-###### Information Exchange. e.g. What is the level of detailing (expected) for your tool/setup to work as intended? what is the LOD after running your tool/setup? Are you relying on classification systems? Standards?
-
- 
+###### Process
+General architectural concept and material choices for the building need to be accomplished before material management, schedule coordination and cost estimation can be begun.  When our use case has be done, the use cases in construction phase can begin, these includes site preparation, foundation construction, structural framing and more. 
 
 ###### Description of the process of your tool / workflow.
 The process of our tool can be view on A3-BIM-UseCase.svg
