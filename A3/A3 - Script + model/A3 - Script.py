@@ -32,7 +32,7 @@ except OSError:
     except OSError:
         print(f"ERROR: please check your model folder: {model_url} does not exist")
 
-# Define a mapping of materials to update
+# Define a mapping of materials to update - Here is where the materials can be modified
 material_mapping = {
     "4. (SB) Stålbjælke": "Rustfrit Stål", #"previous material : New material"
     "@_SB_Stål": "Beton"
