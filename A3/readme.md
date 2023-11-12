@@ -21,6 +21,7 @@ General architectural concept and material choices for the building need to be a
  
 
 ###### Description of the process of your tool / workflow.
+The process of our tool can be view on A3-BIM-UseCase.svg
 
 The red box represents the part of the developed script, which focuses on the early stages of the use case, which is to extract information from the project’s objects and their associated properties and compile a list of details that includes Name, GlobalID, type, length, area, volume, it’s location and the material associated with the element. This is supposed to make the classification of the construction elements easier.  
 
